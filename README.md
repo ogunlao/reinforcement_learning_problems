@@ -1,30 +1,22 @@
-# Reinforcement Learning Labs
+# Reinforcement Learning Projects
 > Modern Reinforcement learning algorithms
 
-Foobar is a Python library for dealing with word pluralization.
+These notebooks explore modern reinforcement learning methods used in practice. The course was taught by Matteo Pirotta.
 
-## Installation
+## What is covered
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+- Finite MDPs
+- Value Iteration
+- Policy Iteration
+- Q Iteration
+- Multi-Armed Bandit (MAB)
+- Actor-Critic (A2C)
+- Deep-Q Networks (DQN)
+- Reinforce
+- Exploration and Exploitation
 
-```bash
-pip install foobar
-```
+## Practical Applications
 
-## Usage
-
-```python
-import foobar
-
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
-```
-
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
-
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
+- Gridworld
+- Mountain car
+- Cartpole (Inverted Pendulum)
